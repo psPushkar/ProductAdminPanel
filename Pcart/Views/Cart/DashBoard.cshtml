@@ -1,0 +1,15 @@
+﻿@model Pcart.Models.ProductDetails
+
+
+@{
+    ViewBag.Title = "DashBoard";
+}
+
+<div style="text-align:right">Hello @Html.ViewBag.UserName</div>
+
+<h2>DashBoard</h2>
+
+@Html.ViewBag.Message
+
+@Html.ActionLink("Products List", "Products")
+
